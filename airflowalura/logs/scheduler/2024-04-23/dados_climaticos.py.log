@@ -1,0 +1,524 @@
+[2024-04-23 02:39:33,761] {processor.py:153} INFO - Started process (PID=142402) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:39:33,762] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:39:33,762] {logging_mixin.py:115} INFO - [2024-04-23 02:39:33,762] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:39:33,763] {logging_mixin.py:115} INFO - [2024-04-23 02:39:33,762] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 18
+    python_callable=
+    ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+[2024-04-23 02:39:33,763] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:39:33,775] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.015 seconds
+[2024-04-23 02:40:06,423] {processor.py:153} INFO - Started process (PID=142593) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:40:06,426] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:40:06,427] {logging_mixin.py:115} INFO - [2024-04-23 02:40:06,427] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:40:06,432] {logging_mixin.py:115} INFO - [2024-04-23 02:40:06,430] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 18
+    python_callable=
+    ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+[2024-04-23 02:40:06,433] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:40:06,466] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.047 seconds
+[2024-04-23 02:40:40,884] {processor.py:153} INFO - Started process (PID=142794) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:40:40,885] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:40:40,886] {logging_mixin.py:115} INFO - [2024-04-23 02:40:40,886] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:40:40,887] {logging_mixin.py:115} INFO - [2024-04-23 02:40:40,886] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 18
+    python_callable=
+    ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+[2024-04-23 02:40:40,887] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:40:40,900] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.017 seconds
+[2024-04-23 02:41:14,193] {processor.py:153} INFO - Started process (PID=142998) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:41:14,196] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:41:14,196] {logging_mixin.py:115} INFO - [2024-04-23 02:41:14,196] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:41:14,197] {logging_mixin.py:115} INFO - [2024-04-23 02:41:14,196] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 18
+    python_callable=
+    ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+[2024-04-23 02:41:14,197] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:41:14,260] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.069 seconds
+[2024-04-23 02:41:46,636] {processor.py:153} INFO - Started process (PID=143223) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:41:46,640] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:41:46,641] {logging_mixin.py:115} INFO - [2024-04-23 02:41:46,641] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:41:46,645] {logging_mixin.py:115} INFO - [2024-04-23 02:41:46,644] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 18
+    python_callable=
+    ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+[2024-04-23 02:41:46,646] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:41:46,697] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.067 seconds
+[2024-04-23 02:42:20,869] {processor.py:153} INFO - Started process (PID=143422) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:42:20,872] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:42:20,873] {logging_mixin.py:115} INFO - [2024-04-23 02:42:20,873] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:42:20,878] {logging_mixin.py:115} INFO - [2024-04-23 02:42:20,877] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 18
+    python_callable=
+    ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+[2024-04-23 02:42:20,879] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:42:20,915] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.054 seconds
+[2024-04-23 02:42:55,462] {processor.py:153} INFO - Started process (PID=143624) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:42:55,464] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:42:55,465] {logging_mixin.py:115} INFO - [2024-04-23 02:42:55,465] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:42:55,466] {logging_mixin.py:115} INFO - [2024-04-23 02:42:55,466] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 18
+    python_callable=
+    ^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+[2024-04-23 02:42:55,466] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:42:55,482] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.022 seconds
+[2024-04-23 02:43:28,057] {processor.py:153} INFO - Started process (PID=143855) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:43:28,060] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:43:28,061] {logging_mixin.py:115} INFO - [2024-04-23 02:43:28,061] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:43:28,077] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:43:28,137] {logging_mixin.py:115} INFO - [2024-04-23 02:43:28,137] {manager.py:508} INFO - Created Permission View: can read on DAG:dados_climaticos
+[2024-04-23 02:43:28,164] {logging_mixin.py:115} INFO - [2024-04-23 02:43:28,164] {manager.py:508} INFO - Created Permission View: can delete on DAG:dados_climaticos
+[2024-04-23 02:43:28,174] {logging_mixin.py:115} INFO - [2024-04-23 02:43:28,174] {manager.py:508} INFO - Created Permission View: can edit on DAG:dados_climaticos
+[2024-04-23 02:43:28,174] {logging_mixin.py:115} INFO - [2024-04-23 02:43:28,174] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:43:28,181] {logging_mixin.py:115} INFO - [2024-04-23 02:43:28,181] {dag.py:2398} INFO - Creating ORM DAG for dados_climaticos
+[2024-04-23 02:43:28,189] {logging_mixin.py:115} INFO - [2024-04-23 02:43:28,189] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:43:28,202] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.148 seconds
+[2024-04-23 02:43:58,505] {processor.py:153} INFO - Started process (PID=144033) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:43:58,508] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:43:58,510] {logging_mixin.py:115} INFO - [2024-04-23 02:43:58,510] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:43:58,535] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:43:58,574] {logging_mixin.py:115} INFO - [2024-04-23 02:43:58,574] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:43:58,607] {logging_mixin.py:115} INFO - [2024-04-23 02:43:58,607] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:43:58,623] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.124 seconds
+[2024-04-23 02:44:32,381] {processor.py:153} INFO - Started process (PID=144230) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:44:32,384] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:44:32,385] {logging_mixin.py:115} INFO - [2024-04-23 02:44:32,385] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:44:32,391] {logging_mixin.py:115} INFO - [2024-04-23 02:44:32,390] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:44:32,391] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:44:32,403] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.022 seconds
+[2024-04-23 02:45:08,240] {processor.py:153} INFO - Started process (PID=144437) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:45:08,240] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:45:08,241] {logging_mixin.py:115} INFO - [2024-04-23 02:45:08,241] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:45:08,245] {logging_mixin.py:115} INFO - [2024-04-23 02:45:08,245] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:45:08,245] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:45:08,260] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.021 seconds
+[2024-04-23 02:45:39,535] {processor.py:153} INFO - Started process (PID=144608) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:45:39,536] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:45:39,537] {logging_mixin.py:115} INFO - [2024-04-23 02:45:39,537] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:45:39,550] {logging_mixin.py:115} INFO - [2024-04-23 02:45:39,549] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:45:39,550] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:45:39,569] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.040 seconds
+[2024-04-23 02:46:16,376] {processor.py:153} INFO - Started process (PID=144850) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:46:16,377] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:46:16,378] {logging_mixin.py:115} INFO - [2024-04-23 02:46:16,378] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:46:16,386] {logging_mixin.py:115} INFO - [2024-04-23 02:46:16,386] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:46:16,387] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:46:16,405] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.036 seconds
+[2024-04-23 02:46:52,944] {processor.py:153} INFO - Started process (PID=145063) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:46:52,947] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:46:52,948] {logging_mixin.py:115} INFO - [2024-04-23 02:46:52,948] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:46:52,966] {logging_mixin.py:115} INFO - [2024-04-23 02:46:52,964] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:46:52,966] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:46:53,007] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.070 seconds
+[2024-04-23 02:47:26,612] {processor.py:153} INFO - Started process (PID=145249) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:47:26,615] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:47:26,616] {logging_mixin.py:115} INFO - [2024-04-23 02:47:26,616] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:47:26,628] {logging_mixin.py:115} INFO - [2024-04-23 02:47:26,627] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:47:26,628] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:47:26,648] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.042 seconds
+[2024-04-23 02:48:00,360] {processor.py:153} INFO - Started process (PID=145440) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:48:00,361] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:48:00,361] {logging_mixin.py:115} INFO - [2024-04-23 02:48:00,361] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:48:00,366] {logging_mixin.py:115} INFO - [2024-04-23 02:48:00,365] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:48:00,366] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:48:00,381] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.022 seconds
+[2024-04-23 02:48:36,861] {processor.py:153} INFO - Started process (PID=145637) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:48:36,864] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:48:36,865] {logging_mixin.py:115} INFO - [2024-04-23 02:48:36,865] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:48:36,877] {logging_mixin.py:115} INFO - [2024-04-23 02:48:36,876] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:48:36,878] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:48:36,908] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.050 seconds
+[2024-04-23 02:49:07,747] {processor.py:153} INFO - Started process (PID=145818) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:49:07,747] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:49:07,748] {logging_mixin.py:115} INFO - [2024-04-23 02:49:07,748] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:49:07,751] {logging_mixin.py:115} INFO - [2024-04-23 02:49:07,751] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:49:07,751] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:49:07,762] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.018 seconds
+[2024-04-23 02:49:39,698] {processor.py:153} INFO - Started process (PID=146016) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:49:39,699] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:49:39,700] {logging_mixin.py:115} INFO - [2024-04-23 02:49:39,700] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:49:39,707] {logging_mixin.py:115} INFO - [2024-04-23 02:49:39,706] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:49:39,708] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:49:39,721] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.026 seconds
+[2024-04-23 02:50:16,782] {processor.py:153} INFO - Started process (PID=146225) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:50:16,785] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:50:16,786] {logging_mixin.py:115} INFO - [2024-04-23 02:50:16,786] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:50:16,792] {logging_mixin.py:115} INFO - [2024-04-23 02:50:16,792] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:50:16,792] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:50:16,809] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.030 seconds
+[2024-04-23 02:50:47,741] {processor.py:153} INFO - Started process (PID=146404) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:50:47,742] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:50:47,742] {logging_mixin.py:115} INFO - [2024-04-23 02:50:47,742] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:50:47,748] {logging_mixin.py:115} INFO - [2024-04-23 02:50:47,747] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:50:47,748] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:50:47,758] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.019 seconds
+[2024-04-23 02:51:19,646] {processor.py:153} INFO - Started process (PID=146610) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:51:19,647] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:51:19,648] {logging_mixin.py:115} INFO - [2024-04-23 02:51:19,648] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:51:19,656] {logging_mixin.py:115} INFO - [2024-04-23 02:51:19,656] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:51:19,657] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:51:19,671] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.030 seconds
+[2024-04-23 02:51:53,000] {processor.py:153} INFO - Started process (PID=146805) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:51:53,001] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:51:53,002] {logging_mixin.py:115} INFO - [2024-04-23 02:51:53,002] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:51:53,006] {logging_mixin.py:115} INFO - [2024-04-23 02:51:53,006] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 7, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-04-23 02:51:53,006] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:51:53,018] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.019 seconds
+[2024-04-23 02:52:24,425] {processor.py:153} INFO - Started process (PID=146986) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:52:24,426] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:52:24,427] {logging_mixin.py:115} INFO - [2024-04-23 02:52:24,427] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:52:24,431] {logging_mixin.py:115} INFO - [2024-04-23 02:52:24,430] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 8
+    from 
+         ^
+SyntaxError: invalid syntax
+[2024-04-23 02:52:24,432] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:52:24,459] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.039 seconds
+[2024-04-23 02:52:58,961] {processor.py:153} INFO - Started process (PID=147217) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:52:58,964] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:52:58,964] {logging_mixin.py:115} INFO - [2024-04-23 02:52:58,964] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:52:58,965] {logging_mixin.py:115} INFO - [2024-04-23 02:52:58,965] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 8
+    from 
+         ^
+SyntaxError: invalid syntax
+[2024-04-23 02:52:58,966] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:52:58,980] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.020 seconds
+[2024-04-23 02:53:34,115] {processor.py:153} INFO - Started process (PID=147421) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:53:34,116] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:53:34,118] {logging_mixin.py:115} INFO - [2024-04-23 02:53:34,117] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:53:34,122] {logging_mixin.py:115} INFO - [2024-04-23 02:53:34,121] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 8
+    from 
+         ^
+SyntaxError: invalid syntax
+[2024-04-23 02:53:34,123] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:53:34,155] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.045 seconds
+[2024-04-23 02:54:09,043] {processor.py:153} INFO - Started process (PID=147792) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:54:09,046] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:54:09,047] {logging_mixin.py:115} INFO - [2024-04-23 02:54:09,047] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:54:09,048] {logging_mixin.py:115} INFO - [2024-04-23 02:54:09,048] {dagbag.py:320} ERROR - Failed to import: /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+Traceback (most recent call last):
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py", line 8
+    from 
+         ^
+SyntaxError: invalid syntax
+[2024-04-23 02:54:09,049] {processor.py:653} WARNING - No viable dags retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:54:09,067] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.025 seconds
+[2024-04-23 02:54:40,911] {processor.py:153} INFO - Started process (PID=148030) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:54:40,912] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:54:40,912] {logging_mixin.py:115} INFO - [2024-04-23 02:54:40,912] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:54:41,183] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:54:41,204] {logging_mixin.py:115} INFO - [2024-04-23 02:54:41,204] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:54:41,213] {logging_mixin.py:115} INFO - [2024-04-23 02:54:41,213] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:54:41,227] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.318 seconds
+[2024-04-23 02:55:13,476] {processor.py:153} INFO - Started process (PID=148451) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:55:13,476] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:55:13,477] {logging_mixin.py:115} INFO - [2024-04-23 02:55:13,477] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:55:13,738] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:55:13,744] {logging_mixin.py:115} INFO - [2024-04-23 02:55:13,744] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:55:13,753] {logging_mixin.py:115} INFO - [2024-04-23 02:55:13,753] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:55:13,763] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.288 seconds
+[2024-04-23 02:55:50,514] {processor.py:153} INFO - Started process (PID=148705) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:55:50,517] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:55:50,517] {logging_mixin.py:115} INFO - [2024-04-23 02:55:50,517] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:55:50,817] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:55:50,822] {logging_mixin.py:115} INFO - [2024-04-23 02:55:50,822] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:55:50,833] {logging_mixin.py:115} INFO - [2024-04-23 02:55:50,833] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:55:50,847] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.334 seconds
+[2024-04-23 02:56:24,180] {processor.py:153} INFO - Started process (PID=148958) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:56:24,180] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:56:24,181] {logging_mixin.py:115} INFO - [2024-04-23 02:56:24,181] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:56:24,440] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:56:24,462] {logging_mixin.py:115} INFO - [2024-04-23 02:56:24,462] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:56:24,470] {logging_mixin.py:115} INFO - [2024-04-23 02:56:24,470] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:56:24,480] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.301 seconds
+[2024-04-23 02:56:56,696] {processor.py:153} INFO - Started process (PID=149218) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:56:56,696] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:56:56,697] {logging_mixin.py:115} INFO - [2024-04-23 02:56:56,697] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:56:56,992] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:56:56,998] {logging_mixin.py:115} INFO - [2024-04-23 02:56:56,997] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:56:57,008] {logging_mixin.py:115} INFO - [2024-04-23 02:56:57,008] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:56:57,021] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.327 seconds
+[2024-04-23 02:57:27,288] {processor.py:153} INFO - Started process (PID=149391) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:57:27,289] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:57:27,290] {logging_mixin.py:115} INFO - [2024-04-23 02:57:27,290] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:57:27,575] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:57:27,582] {logging_mixin.py:115} INFO - [2024-04-23 02:57:27,582] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:57:27,591] {logging_mixin.py:115} INFO - [2024-04-23 02:57:27,591] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:57:27,600] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.319 seconds
+[2024-04-23 02:58:02,119] {processor.py:153} INFO - Started process (PID=149650) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:58:02,120] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:58:02,121] {logging_mixin.py:115} INFO - [2024-04-23 02:58:02,121] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:58:02,387] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:58:02,394] {logging_mixin.py:115} INFO - [2024-04-23 02:58:02,394] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:58:02,403] {logging_mixin.py:115} INFO - [2024-04-23 02:58:02,403] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:58:02,413] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.296 seconds
+[2024-04-23 02:58:33,058] {processor.py:153} INFO - Started process (PID=149819) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:58:33,059] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:58:33,061] {logging_mixin.py:115} INFO - [2024-04-23 02:58:33,060] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:58:33,322] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:58:33,328] {logging_mixin.py:115} INFO - [2024-04-23 02:58:33,327] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:58:33,337] {logging_mixin.py:115} INFO - [2024-04-23 02:58:33,337] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:58:33,347] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.295 seconds
+[2024-04-23 02:59:06,343] {processor.py:153} INFO - Started process (PID=150027) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:59:06,346] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:59:06,346] {logging_mixin.py:115} INFO - [2024-04-23 02:59:06,346] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:59:06,622] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:59:06,627] {logging_mixin.py:115} INFO - [2024-04-23 02:59:06,627] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:59:06,638] {logging_mixin.py:115} INFO - [2024-04-23 02:59:06,638] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:59:06,650] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.309 seconds
+[2024-04-23 02:59:44,606] {processor.py:153} INFO - Started process (PID=150252) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:59:44,606] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 02:59:44,607] {logging_mixin.py:115} INFO - [2024-04-23 02:59:44,607] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:59:44,936] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 02:59:44,958] {logging_mixin.py:115} INFO - [2024-04-23 02:59:44,958] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 02:59:44,967] {logging_mixin.py:115} INFO - [2024-04-23 02:59:44,967] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 02:59:44,978] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.374 seconds
+[2024-04-23 03:00:17,162] {processor.py:153} INFO - Started process (PID=150462) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:00:17,165] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 03:00:17,166] {logging_mixin.py:115} INFO - [2024-04-23 03:00:17,166] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:00:17,431] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:00:17,438] {logging_mixin.py:115} INFO - [2024-04-23 03:00:17,437] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 03:00:17,446] {logging_mixin.py:115} INFO - [2024-04-23 03:00:17,446] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 03:00:17,456] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.300 seconds
+[2024-04-23 03:00:52,012] {processor.py:153} INFO - Started process (PID=150692) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:00:52,013] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 03:00:52,014] {logging_mixin.py:115} INFO - [2024-04-23 03:00:52,014] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:00:52,355] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos2']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:00:52,393] {logging_mixin.py:115} INFO - [2024-04-23 03:00:52,393] {manager.py:508} INFO - Created Permission View: can read on DAG:dados_climaticos2
+[2024-04-23 03:00:52,404] {logging_mixin.py:115} INFO - [2024-04-23 03:00:52,404] {manager.py:508} INFO - Created Permission View: can delete on DAG:dados_climaticos2
+[2024-04-23 03:00:52,411] {logging_mixin.py:115} INFO - [2024-04-23 03:00:52,411] {manager.py:508} INFO - Created Permission View: can edit on DAG:dados_climaticos2
+[2024-04-23 03:00:52,411] {logging_mixin.py:115} INFO - [2024-04-23 03:00:52,411] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 03:00:52,417] {logging_mixin.py:115} INFO - [2024-04-23 03:00:52,417] {dag.py:2398} INFO - Creating ORM DAG for dados_climaticos2
+[2024-04-23 03:00:52,426] {logging_mixin.py:115} INFO - [2024-04-23 03:00:52,425] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos2 to 2024-04-08T00:00:00+00:00, run_after=2024-04-15T00:00:00+00:00
+[2024-04-23 03:00:52,438] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.427 seconds
+[2024-04-23 03:01:25,340] {processor.py:153} INFO - Started process (PID=150961) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:01:25,341] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 03:01:25,341] {logging_mixin.py:115} INFO - [2024-04-23 03:01:25,341] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:01:25,589] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos2']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:01:25,596] {logging_mixin.py:115} INFO - [2024-04-23 03:01:25,596] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 03:01:25,605] {logging_mixin.py:115} INFO - [2024-04-23 03:01:25,604] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos2 to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 03:01:25,613] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.274 seconds
+[2024-04-23 03:01:57,496] {processor.py:153} INFO - Started process (PID=151199) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:01:57,499] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 03:01:57,499] {logging_mixin.py:115} INFO - [2024-04-23 03:01:57,499] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:01:57,753] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos2']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:01:57,759] {logging_mixin.py:115} INFO - [2024-04-23 03:01:57,759] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 03:01:57,768] {logging_mixin.py:115} INFO - [2024-04-23 03:01:57,768] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos2 to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 03:01:57,778] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.286 seconds
+[2024-04-23 03:02:28,248] {processor.py:153} INFO - Started process (PID=151378) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:02:28,249] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 03:02:28,250] {logging_mixin.py:115} INFO - [2024-04-23 03:02:28,250] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:02:28,518] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos2']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:02:28,523] {logging_mixin.py:115} INFO - [2024-04-23 03:02:28,523] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 03:02:28,533] {logging_mixin.py:115} INFO - [2024-04-23 03:02:28,533] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos2 to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 03:02:28,547] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.301 seconds
+[2024-04-23 03:02:59,072] {processor.py:153} INFO - Started process (PID=151567) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:02:59,075] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 03:02:59,076] {logging_mixin.py:115} INFO - [2024-04-23 03:02:59,076] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:02:59,340] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos2']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:02:59,346] {logging_mixin.py:115} INFO - [2024-04-23 03:02:59,346] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 03:02:59,355] {logging_mixin.py:115} INFO - [2024-04-23 03:02:59,355] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos2 to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 03:02:59,363] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.295 seconds
+[2024-04-23 03:03:31,742] {processor.py:153} INFO - Started process (PID=151749) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:03:31,745] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-23 03:03:31,746] {logging_mixin.py:115} INFO - [2024-04-23 03:03:31,746] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:03:32,018] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos2']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-23 03:03:32,024] {logging_mixin.py:115} INFO - [2024-04-23 03:03:32,024] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-23 03:03:32,034] {logging_mixin.py:115} INFO - [2024-04-23 03:03:32,033] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos2 to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-23 03:03:32,043] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.308 seconds

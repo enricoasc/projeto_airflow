@@ -1,0 +1,24 @@
+[2024-04-23 02:05:03,031] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: atividade-aula_4.msg_tela manual__2024-04-23T05:05:01.101155+00:00 [queued]>
+[2024-04-23 02:05:03,038] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: atividade-aula_4.msg_tela manual__2024-04-23T05:05:01.101155+00:00 [queued]>
+[2024-04-23 02:05:03,038] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-04-23 02:05:03,038] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2024-04-23 02:05:03,038] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-04-23 02:05:03,078] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): msg_tela> on 2024-04-23 05:05:01.101155+00:00
+[2024-04-23 02:05:03,079] {standard_task_runner.py:52} INFO - Started process 129724 to run task
+[2024-04-23 02:05:03,081] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'atividade-aula_4', 'msg_tela', 'manual__2024-04-23T05:05:01.101155+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/atividade_aula_4.py', '--cfg-path', '/tmp/tmptegi_d89', '--error-file', '/tmp/tmpnwh5khw1']
+[2024-04-23 02:05:03,081] {standard_task_runner.py:80} INFO - Job 12: Subtask msg_tela
+[2024-04-23 02:05:03,107] {task_command.py:370} INFO - Running <TaskInstance: atividade-aula_4.msg_tela manual__2024-04-23T05:05:01.101155+00:00 [running]> on host URATIC9519.RIOBRANCOPETROLEO
+[2024-04-23 02:05:03,145] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=atividade-aula_4
+AIRFLOW_CTX_TASK_ID=msg_tela
+AIRFLOW_CTX_EXECUTION_DATE=2024-04-23T05:05:01.101155+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-04-23T05:05:01.101155+00:00
+[2024-04-23 02:05:03,145] {logging_mixin.py:115} INFO - Boas-vindas ao Airflow!
+[2024-04-23 02:05:03,145] {python.py:173} INFO - Done. Returned value was: None
+[2024-04-23 02:05:03,151] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=atividade-aula_4, task_id=msg_tela, execution_date=20240423T050501, start_date=20240423T050503, end_date=20240423T050503
+[2024-04-23 02:05:03,213] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-04-23 02:05:03,225] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
