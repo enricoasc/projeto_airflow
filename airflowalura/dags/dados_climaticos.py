@@ -9,7 +9,7 @@ import pendulum
 
 with DAG(
     'dados_climaticos2',
-    start_date=pendulum.datetime(2024,4,2, tz='UTC'),
+    start_date=pendulum.datetime(2024,4,1, tz='UTC'),
     schedule_interval= '0 0 * * 1', # executar toda segunda feira
 ) as dag:
     
@@ -18,7 +18,7 @@ with DAG(
         bash_command='mkdir -p "/home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/semana={{data_interval_end.strftime("%Y-%m-%d")}}"'
     )
 
-    ##################################################3
+    ##################################################
 
     def extrai_dados(data_interval_end):
         city = 'Boston'
@@ -36,6 +36,7 @@ with DAG(
         dados[['datetime', 'tempmin', 'temp', 'tempmax']].to_csv(file_path+'temperaturas.csv')
         dados[['datetime', 'description', 'icon']].to_csv(file_path+'condicoes.csv')
 
+    ##################################################
 
     tarefa2 = PythonOperator(
         task_id = 'extrai_dados',
