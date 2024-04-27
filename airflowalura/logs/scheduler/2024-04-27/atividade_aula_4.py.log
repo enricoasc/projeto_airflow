@@ -187,3 +187,10 @@
 [2024-04-27 10:04:44,844] {logging_mixin.py:115} INFO - [2024-04-27 10:04:44,844] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-04-27 10:04:44,857] {logging_mixin.py:115} INFO - [2024-04-27 10:04:44,857] {dag.py:2927} INFO - Setting next_dagrun for atividade-aula_4 to 2024-04-26T00:00:00+00:00, run_after=2024-04-27T00:00:00+00:00
 [2024-04-27 10:04:44,866] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/atividade_aula_4.py took 0.059 seconds
+[2024-04-27 10:05:18,942] {processor.py:153} INFO - Started process (PID=98838) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/atividade_aula_4.py
+[2024-04-27 10:05:18,945] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/atividade_aula_4.py for tasks to queue
+[2024-04-27 10:05:18,946] {logging_mixin.py:115} INFO - [2024-04-27 10:05:18,946] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/atividade_aula_4.py
+[2024-04-27 10:05:18,950] {processor.py:651} INFO - DAG(s) dict_keys(['atividade-aula_4']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/atividade_aula_4.py
+[2024-04-27 10:05:18,959] {logging_mixin.py:115} INFO - [2024-04-27 10:05:18,959] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-27 10:05:18,969] {logging_mixin.py:115} INFO - [2024-04-27 10:05:18,969] {dag.py:2927} INFO - Setting next_dagrun for atividade-aula_4 to 2024-04-26T00:00:00+00:00, run_after=2024-04-27T00:00:00+00:00
+[2024-04-27 10:05:18,981] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/atividade_aula_4.py took 0.041 seconds

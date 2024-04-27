@@ -173,3 +173,10 @@
 [2024-04-27 10:04:35,835] {logging_mixin.py:115} INFO - [2024-04-27 10:04:35,835] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-04-27 10:04:35,844] {logging_mixin.py:115} INFO - [2024-04-27 10:04:35,844] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2024-04-27 10:04:35,854] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2024-04-27 10:05:10,501] {processor.py:153} INFO - Started process (PID=98804) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-04-27 10:05:10,504] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-04-27 10:05:10,505] {logging_mixin.py:115} INFO - [2024-04-27 10:05:10,505] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-04-27 10:05:10,526] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2024-04-27 10:05:10,542] {logging_mixin.py:115} INFO - [2024-04-27 10:05:10,542] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-27 10:05:10,552] {logging_mixin.py:115} INFO - [2024-04-27 10:05:10,552] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-04-27 10:05:10,566] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.071 seconds

@@ -187,3 +187,10 @@
 [2024-04-27 10:04:31,054] {logging_mixin.py:115} INFO - [2024-04-27 10:04:31,054] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-04-27 10:04:31,063] {logging_mixin.py:115} INFO - [2024-04-27 10:04:31,062] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos2 to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
 [2024-04-27 10:04:31,074] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.236 seconds
+[2024-04-27 10:05:03,123] {processor.py:153} INFO - Started process (PID=98772) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-27 10:05:03,124] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py for tasks to queue
+[2024-04-27 10:05:03,125] {logging_mixin.py:115} INFO - [2024-04-27 10:05:03,125] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-27 10:05:03,322] {processor.py:651} INFO - DAG(s) dict_keys(['dados_climaticos2']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py
+[2024-04-27 10:05:03,328] {logging_mixin.py:115} INFO - [2024-04-27 10:05:03,327] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-27 10:05:03,336] {logging_mixin.py:115} INFO - [2024-04-27 10:05:03,336] {dag.py:2927} INFO - Setting next_dagrun for dados_climaticos2 to 2024-04-22T00:00:00+00:00, run_after=2024-04-29T00:00:00+00:00
+[2024-04-27 10:05:03,346] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/dags/dados_climaticos.py took 0.229 seconds

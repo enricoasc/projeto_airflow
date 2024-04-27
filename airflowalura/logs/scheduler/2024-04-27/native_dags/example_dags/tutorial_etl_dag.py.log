@@ -166,3 +166,10 @@
 [2024-04-27 10:04:27,486] {logging_mixin.py:115} INFO - [2024-04-27 10:04:27,486] {dag.py:2379} INFO - Sync 1 DAGs
 [2024-04-27 10:04:27,498] {logging_mixin.py:115} INFO - [2024-04-27 10:04:27,498] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
 [2024-04-27 10:04:27,509] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.067 seconds
+[2024-04-27 10:05:04,951] {processor.py:153} INFO - Started process (PID=98774) to work on /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-04-27 10:05:04,955] {processor.py:641} INFO - Processing file /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-04-27 10:05:04,956] {logging_mixin.py:115} INFO - [2024-04-27 10:05:04,956] {dagbag.py:507} INFO - Filling up the DagBag from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-04-27 10:05:04,970] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-04-27 10:05:04,991] {logging_mixin.py:115} INFO - [2024-04-27 10:05:04,991] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-04-27 10:05:05,005] {logging_mixin.py:115} INFO - [2024-04-27 10:05:05,005] {dag.py:2927} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-04-27 10:05:05,015] {processor.py:161} INFO - Processing /home/enrico/Documentos/backup/AULA/Alura/Engenharia de dados/projeto_airflow/airflowalura/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py took 0.070 seconds
